@@ -1015,6 +1015,41 @@ h1
 /*start footer*/
 
 /*end footer*/
+
+/* start carousel */
+.carousel-control {
+	top: 50%;
+	background: none;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.carousel-control.left {
+	left: -10px;
+	background: url('images/arrow-left@x1.png') no-repeat left top transparent;
+}
+
+.carousel-control.left:hover {
+	background: url('images/arrow-left-hover@x1.png') no-repeat left top transparent;
+}
+
+.carousel-control.right {
+	right: -25px;
+	background: url('images/arrow-right@x1.png') no-repeat left top transparent;
+}
+
+.carousel-control.right:hover {
+	background: url('images/arrow-right-hover@x1.png') no-repeat left top transparent;
+}
+
+/* end carousel */
+
+
+
 /* !!!!!!!!!!!!!!!!!!!! end custom css !!!!!!!!!!!!!!!!!!!!!! */
 
 
